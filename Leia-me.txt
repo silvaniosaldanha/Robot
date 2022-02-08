@@ -1,0 +1,30 @@
+Olá, bis2bis!
+
+Para rodar os meus testes automatizados, basta seguir o passo-a-passo:
+
+1. Baixar a última versão disponível do Python em https://python.org/download;
+
+
+2. Ao instalar o Python, marcar o checkbox "Add Python to Path";
+
+
+3. Rodar os seguintes comandos no Prompt de Comando: 
+
+pip install robotframework
+pip install robotframework-seleniumlibrary
+
+
+4. Fazer o download do Chromedriver em:
+
+Atenção: O Chromedriver deve ser compatível com a versão atual do seu Chrome.
+
+
+5. Adicionar o executável do Chromedriver na página Scripts do Python.
+O caminho padrão é: C:\Users\%USUARIO%\AppData\Local\Programs\Python\Python310\Scripts
+
+
+6. No diretório dos testes (arquivos .robot e .resource), rodar o seguinte comando no terminal (Prompt de Comando, Powershell etc): robot versejar.robot
+
+
+Atenciosamente,
+Silvanio Saldanha
